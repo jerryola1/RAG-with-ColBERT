@@ -1,0 +1,13 @@
+streamlit
+ragatouille
+langchain-openai
+langchain-community
+langchain-core
+pypdf
+groq
+langchain
+langchain-groq
+python-dotenv
+beautifulsoup4
+faiss-cpu
+ollama
