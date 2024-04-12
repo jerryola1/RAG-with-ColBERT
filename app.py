@@ -10,6 +10,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.llms import OpenAI
 from langchain_openai import ChatOpenAI
 from ragatouille import RAGPretrainedModel
+from langchain_community.chat_models import ChatOllama
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
