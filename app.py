@@ -54,7 +54,9 @@ prompt = ChatPromptTemplate.from_template(
 )
 
 # Create a language model
-llm = ChatOpenAI(streaming=True, max_tokens=150)
+# llm = ChatOpenAI(streaming=True, max_tokens=150)
+llm = ChatOllama(streaming=True, max_tokens=150)
+
 
 # Create a document chain and retrieval chain
 document_chain = create_stuff_documents_chain(llm, prompt)
