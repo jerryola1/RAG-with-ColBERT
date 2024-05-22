@@ -83,4 +83,4 @@ if question:
         st.error(f"An error occurred: {e}")
 
 
-question = st.text_input("Ask a question...")
+# question = st.text_input("Ask a question...")1
